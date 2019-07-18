@@ -16,5 +16,8 @@
   "bugs": {
     "url": "https://github.com/iancl/algorithms/issues"
   },
-  "homepage": "https://github.com/iancl/algorithms#readme"
+  "homepage": "https://github.com/iancl/algorithms#readme",
+  "devDependencies": {
+    "jest": "^24.8.0"
+  }
 }
