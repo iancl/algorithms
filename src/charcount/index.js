@@ -1,3 +1,8 @@
+/**
+ * Write a function that returns a mapping of how many times each character
+ * on a string appears on the string.
+ */
+// O(n)
 function charCount_A(str) {
   const strArr = str.toLowerCase().match(/\w/ig);
 

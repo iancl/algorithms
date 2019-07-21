@@ -23,6 +23,7 @@
  * @param {Integer} n
  * @returns {Integer}
  */
+// no sure but this is probable O(n)
 function maxSubArraySumA(arr, n) {
   if (!arr.length || arr.length < n) {
     return null;

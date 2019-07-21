@@ -9,6 +9,7 @@
  * - (1,2,2) === false
  * - ('a','b','c', 'a') === true
  */
+// O(n)
 function areThereDuplicatesA(...args) {
   let charMap = {};
   let sortedArgs = args.sort((a, b) => a > b);
@@ -26,7 +27,7 @@ function areThereDuplicatesA(...args) {
   return false;
 }
 
-
+// O(n)
 function areThereDuplicatesB(...args) {
   let sortedArgs = args.sort((a, b) => a > b);
 

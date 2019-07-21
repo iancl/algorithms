@@ -7,6 +7,7 @@
  * - (3589578, 5879385) true
  * - (22, 222) // false
  */
+// O(n)
 function sameFrequencyA(n1, n2) {
   let sortedNum1 = n1.toString();
   let sortedNum2 = n2.toString();

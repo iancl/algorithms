@@ -8,6 +8,7 @@
  * sumZero([-2, 0, 1, 3])             // undefined
  * sumZero([1, 2, 3])                 // undefined
  */
+// O(n)
 function sumZeroA(list) {
   let leftIndex = 0;
   let rightIndex = list.length - 1;
