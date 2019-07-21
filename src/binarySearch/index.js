@@ -8,7 +8,7 @@
  * - ([1,2,3,4,5,6], 11) === -1
  */
 // O(log(n));
-function binarySearchA(sortedArr, n) {
+function binarySearch(sortedArr, n) {
   let min = 0;
   let max = sortedArr.length - 1;
   let result = -1;
@@ -31,5 +31,4 @@ function binarySearchA(sortedArr, n) {
   return result;
 }
 
-console.log('-------------------', binarySearchA([1], 1));
-module.exports = { binarySearchA }
+module.exports = binarySearch;
