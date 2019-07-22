@@ -18,7 +18,6 @@ function fibonacciA(n) {
     currentNumber = previousNumber + previousPreviousNumber;
   }
 
-
   return currentNumber;
 }
 
